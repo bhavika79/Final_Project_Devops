@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: ecommerce
-        image: ghcr.io/bhavika79/Final_Project_Devops:latest
+        image: ghcr.io/bhavika79/final_project_devops:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
