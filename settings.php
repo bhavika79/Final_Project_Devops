@@ -1,6 +1,4 @@
-<?php
-	require "includes\common.php";
-  ?>
+
   
 <!DOCTYPE html>
 <html>
@@ -46,7 +44,7 @@
 				
 			</div>
 			<div class="col-md-6">
-				<form action="update_password.php" method="post">
+				<form  method="post">
 					<h4>Change password</h4>
 					<div class="form-group">
 						<input type="password" name="oldpassword"class=" form-control" placeholder="Old Password"><br>

@@ -1,6 +1,4 @@
-<?php
-	require "includes\common.php";
-  ?>
+
   
 <!DOCTYPE html>
 <html>
@@ -45,7 +43,7 @@
 	<div class="modal fade" id="loginmodal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
 	  <div class="modal-dialog">
 	    <div class="modal-content">
-	    	<form action="login_script.php" method="post">
+	    	<form action="home.php" method="post">
 	      		<div class="modal-header">
 	        	    <h4 class="modal-title" id="myModalLabel">Login </h4>
 	       			<button type="button" class="close" data-dismiss="modal" aria-label="Close">

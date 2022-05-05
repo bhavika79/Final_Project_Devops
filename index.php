@@ -1,6 +1,3 @@
-<?php
-	require "includes\common.php";
-  ?>
 
 <!DOCTYPE html>
 <html>
@@ -45,7 +42,7 @@
 	<div class="modal fade" id="loginmodal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
 	  <div class="modal-dialog">
 	    <div class="modal-content">
-	    	<form action="login_script.php" method="post">
+	    	<form action="home.php" method="post">
 	      		<div class="modal-header">
 	        	    <h4 class="modal-title" id="myModalLabel">Login </h4>
 	       			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -82,7 +79,7 @@
 					<div class="panel-body">
 						<div class="thumbnail"><img src="1.jpg" alt="" class="img-responsive"></div>
 						<p>Realme ,MediaTek Helio G9OT,64gb,4300MAh Rs.16,999</p>
-						<a href="signup.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
+						<a href="home.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
 					</div>
 				</div>
 			</div>		
@@ -94,7 +91,7 @@
 					<div class="panel-body">
 						<div class="thumbnail"><img src="2.jpg" alt="" class="img-responsive"></div>
 						<p>OPPO A3s,2GB RAM,16GB internal storage,Dual rear,8MP selfie Rs.74,900</p>
-						<a href="signup.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
+						<a href="home.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
 					</div>
 				</div>
 			</div>	
@@ -106,7 +103,7 @@
 					<div class="panel-body">
 						<div class="thumbnail"><img src="4.jpg" alt="" class="img-responsive"></div>
 						<p>vivo IQOO 3,8GB RAM,128GB internal storage Rs.34,990</p>
-						<a href="signup.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
+						<a href="home.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
 					</div>
 				</div>
 			</div>				
@@ -120,7 +117,7 @@
 					<div class="panel-body">
 						<div class="thumbnail"><img src="3.jpg" alt="" class="img-responsive"></div>
 						<p>Samsung Galaxy S20 Plus,6GB RAM,64GB internal storage,Quad rear Rs.73,999</p>
-						<a href="signup.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
+						<a href="home.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
 					</div>
 				</div>
 			</div>		
@@ -132,7 +129,7 @@
 					<div class="panel-body">
 						<div class="thumbnail"><img src="5.jpg" alt="" class="img-responsive"></div>
 						<p>Apple iPhone 11 Pro,Apple A13 Bionic (7 nm ),4GB RAM,Rs.97,900</p>
-						<a href="signup.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
+						<a href="home.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
 					</div>
 				</div>
 			</div>	
@@ -144,7 +141,7 @@
 					<div class="panel-body">
 						<div class="thumbnail"><img src="6.jpg" alt="" class="img-responsive"></div>
 						<p>Xiaomi Redmi Note 8 Pro,Qualcomm Snapdragon 665,6GB RAMRs.14,479</p>
-						<a href="signup.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
+						<a href="home.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
 					</div>
 				</div>
 			</div>				

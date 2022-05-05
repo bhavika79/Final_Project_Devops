@@ -1,6 +1,4 @@
-<?php
-	require "includes\common.php";
-  ?>
+
   
 <!DOCTYPE html>
 <html>
@@ -45,7 +43,7 @@
 	<div class="modal fade" id="loginmodal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
 	  <div class="modal-dialog">
 	    <div class="modal-content">
-	    	<form action="login_script.php" method="post">
+	    	<form action="home.php" method="post">
 	      		<div class="modal-header">
 	        	    <h4 class="modal-title" id="myModalLabel">Login </h4>
 	       			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -62,7 +60,7 @@
 	        		 <input type="password" name="password"class=" form-control" placeholder="Password" required="true"><div><?php if(isset($_GET['password_error'])){
       echo $_GET['password_error'];} ?></div><br>
 	        		</div>
-					  <a href=""> <button class="btn btn-primary">Login</button></a>
+					  <a href=""><button class="btn btn-primary">Login</button></a>
 	      		</div>
 	      		<div class="modal-footer">
 	       			<p><a href="##">forget password?</a></p>
@@ -79,7 +77,7 @@
 			</div>
 			<div class="col-md-6">
 				
-				<form method="post" action="user_sign_script.php">
+				<form action="home.php" method="post">
 					<h1>SIGN UP</h1>
 					<div class="form-group">
 						<input type="text" name="name" class=" form-control" placeholder="name" required="true"><br>
@@ -89,7 +87,7 @@
 						<input type="number" name="contact"class=" form-control" placeholder="contact" required="true" pattern=".{10,}"><br>
 						<input type="text" name="city" class=" form-control" placeholder="city" required="true"><br>
 						<input type="text" name="address" class=" form-control" placeholder="Address" required="true"><br>
-						<a href=""> <button class="btn btn-primary">Submit</button></a>
+						<a href=""><button class="btn btn-primary">Submit</button></a>
 					</div>
 				</form>
 			</div>
