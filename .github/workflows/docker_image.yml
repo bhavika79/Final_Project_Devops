@@ -49,7 +49,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: ghcr.io/${{ github.actor }}/final_project_devops:latest2
+        tags: ghcr.io/${{ github.actor }}/final_project_devops:latest
     
     - uses: azure/setup-kubectl@v2.0
       with:
