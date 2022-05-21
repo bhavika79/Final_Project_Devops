@@ -49,7 +49,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: ghcr.io/${{ github.actor }}/final_project_devops:latest
+        tags: ghcr.io/${{ github.actor }}/final_project_devops:latest3
     
     - uses: azure/setup-kubectl@v2.0
       with:
@@ -65,4 +65,4 @@ jobs:
       run:  kubectl apply -f service.yaml
       
     - name: Updating the image
-      run: kubectl set image deployments ecommerce-deployment ecommerce=ghcr.io/${{ github.actor }}/final_project_devops:latest2 -n practice
+      run: kubectl set image deployments ecommerce-deployment ecommerce=ghcr.io/${{ github.actor }}/final_project_devops:latest3 -n practice
