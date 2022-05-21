@@ -148,44 +148,8 @@
 		</div>		
 	</div>
 	
-		<div class="row">
-			<div class="col-md-4">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h4>Mobile 7</h4>
-					</div>
-					<div class="panel-body">
-						<div class="thumbnail"><img src="7.jpg" alt="" class="img-responsive"></div>
-						<p>Apple iPhone 13,128GB ROM,MLPK3HN/A,Pink,Rs.72,990</p>
-						<a href="home.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
-					</div>
-				</div>
-			</div>		
-			<div class="col-md-4">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h4>Mobile 8</h4>
-					</div>
-					<div class="panel-body">
-						<div class="thumbnail"><img src="8.jpg" alt="" class="img-responsive"></div>
-						<p>OPPO F17 PRO,128 GB,Metallic Blue,8 GB RAM,Rs.18,990</p>
-						<a href="home.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
-					</div>
-				</div>
-			</div>	
-			<div class="col-md-4">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h4>Mobile 9</h4>
-					</div>
-					<div class="panel-body">
-						<div class="thumbnail"><img src="9.jpg" alt="" class="img-responsive"></div>
-						<p>REALME 3 PRO LIGHTNING PURPLE, 128GB 6GB RAM REFURBISHEDD,Rs.12,999</p>
-						<a href="home.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
-					</div>
-				</div>
-			</div>				
-		</div>	
+					
+	
 	<footer>
 		<div class="container">
 			<div class="row">
